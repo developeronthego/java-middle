@@ -5,6 +5,10 @@
 	<groupId>pl.developeronthego</groupId>
 	<artifactId>java-middle</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
 	<dependencies>
 		<dependency>
@@ -36,6 +40,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 		</plugins>
